@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Proveedores — Asistente</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="header-left">
+          <div class="logo">🏢</div>
+          <div>
+            <h1>Registro de Proveedores</h1>
+            <p class="subtitle">Asistente conversacional</p>
+          </div>
+        </div>
+        <button id="resetBtn" class="reset-btn" title="Nueva conversación">
+          ↻ Reiniciar
+        </button>
+      </header>
+
+      <main id="chat" class="chat">
+        <div class="message assistant">
+          <div class="bubble">
+            ¡Hola! 👋 Soy tu asistente para registrar proveedores.
+            <br /><br />
+            Para empezar, dime la <strong>razón social</strong> y el <strong>NIT</strong>.
+          </div>
+        </div>
+      </main>
+
+      <footer class="composer">
+        <textarea
+          id="input"
+          placeholder="Escribe tu mensaje…"
+          rows="1"
+          autofocus
+        ></textarea>
+        <button id="sendBtn" class="send-btn" title="Enviar (Enter)">
+          ➤
+        </button>
+      </footer>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
