@@ -88,3 +88,8 @@ bun run demo.ts
 bun run src/server.ts
 
 # 5. Abrir http://localhost:3000
+
+
+# 6. Link público
+
+🚀 **Demo en vivo**: https://agente-proveedores.onrender.com
